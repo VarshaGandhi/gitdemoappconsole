@@ -8,6 +8,12 @@ namespace gitdemoappconsole
     public string Name { get; set; }
     public string Address { get; set; }
   }
+  class studentinfo
+  {
+    public int StudentID { get; set; }
+    public int English { get; set; }
+    public int Math { get; set; }
+  }
   class Program
   {
     static void Main(string[] args)
